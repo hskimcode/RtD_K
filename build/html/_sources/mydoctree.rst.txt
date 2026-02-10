@@ -35,7 +35,7 @@ Welcome to mydoctree's documentation!
 3. Third item
 
 그리고 블렛 타입
---------------
+-----------------
 - First bullet
 - Second bullet
 
@@ -48,8 +48,4 @@ Welcome to mydoctree's documentation!
 
 
    Sphinx logo image.
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
 

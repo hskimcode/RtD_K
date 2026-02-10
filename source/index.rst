@@ -14,9 +14,9 @@ documentation for details.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: 차례 Contents:
 
+   inddd
    mydoctree
-
    anotherfile
    
