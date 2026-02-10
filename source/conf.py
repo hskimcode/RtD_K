@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'RtD_Kdoc'
+project = 'RtD_KHSdoc'
 copyright = '2026, HSKIM'
 author = 'HSKIM'
 release = '1.0'
@@ -14,7 +14,10 @@ release = '1.0'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+# conf.py  아래의 확장 기능을 포함시켜서 Tex 문서 작성을 rst 파일에서 가능하게 함
+extensions = [
+    'sphinx.ext.mathjax',
+]
 
 templates_path = ['_templates']
 exclude_patterns = []
